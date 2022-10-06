@@ -1,5 +1,5 @@
 # gets the docker image of ruby 2.5 and lets us build on top of that
-FROM ruby:2.5.1-slim
+FROM ruby:2.6.3-slim
 
 # install rails dependencies
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs libsqlite3-dev
